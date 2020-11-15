@@ -1,5 +1,5 @@
 ---
-Logo: image/icon_256x256.png
+Logo: image/totodiles.png
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
