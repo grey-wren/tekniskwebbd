@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1d0707;
+}
+
+/* Header */
+
+.site-header {
+    flex: 0 0 auto;
+    background-color: #923624;
+    color: #281416;
+    padding: 0 2em;
+}
+
+.site-header a, .site-header a:visited {
+    color: #1a5b86;
+}
+
+/* Main */
+
+.main {
+    flex: 1 0 auto;
+    padding: 2em;
+}
+
+/* Footer */
+
+.site-footer {
+    flex: 0 0 auto;
+    background-color: #923624;
+    color: #281416;
+    padding: 2em;
+}
+
+.site-footer a {
+    color: #366e94;
+}
