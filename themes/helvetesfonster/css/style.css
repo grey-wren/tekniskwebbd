@@ -9,9 +9,19 @@ html, body {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    background-color: #1d0707;
+    font-family: Ubuntu;
+    margin: 8px auto;
+    padding: 8px;
+    width: 980px;
+    background-color: #391D1F;
+    border-radius: 10px;
+}
+
+main {
+    width: 70%;
+    float: left;
+    min-height: 30em;
+    clear: both;
 }
 
 /* Header */
