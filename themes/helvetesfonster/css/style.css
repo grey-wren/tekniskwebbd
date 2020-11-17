@@ -13,6 +13,7 @@ body {
     flex-direction: column;
     background-color: #1d0707;
     font-family: inherit;
+    overflow: auto;
 }
 
 /* Header */
@@ -28,7 +29,8 @@ body {
     color: #1a5b86;
 }
 
-.flash-region {
+.flash-img {
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
