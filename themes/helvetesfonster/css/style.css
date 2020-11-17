@@ -9,19 +9,10 @@ html, body {
 }
 
 body {
-    font-family: Ubuntu;
-    margin: 8px auto;
-    padding: 8px;
-    width: 980px;
-    background-color: #391D1F;
-    border-radius: 10px;
-}
-
-main {
-    width: 70%;
-    float: left;
-    min-height: 30em;
-    clear: both;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d0707;
+    font-family: inherit;
 }
 
 /* Header */
@@ -37,11 +28,19 @@ main {
     color: #1a5b86;
 }
 
+.flash-region {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Main */
 
 .main {
     flex: 1 0 auto;
     padding: 2em;
+    width: 70%;
+    clear: both;
+    margin: auto;
 }
 
 /* Footer */
